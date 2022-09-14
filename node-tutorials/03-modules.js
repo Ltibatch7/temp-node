@@ -1,10 +1,10 @@
 // CommonJS -  every file in module (my default)
 // Modules - Encapsulated code (only share minimum)
 
-const names = require('./4-names');
-const sayHi = require('./5-function');
-const data = require('./6-alternative-favor');
-require('./7-mind-grenade');
+const names = require('./04-names');
+const sayHi = require('./05-function');
+const data = require('./06-alternative-favor');
+require('./07-mind-grenade');
 
 console.log(data);
 sayHi('Praveen');
