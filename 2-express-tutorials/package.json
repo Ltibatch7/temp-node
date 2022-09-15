@@ -1,0 +1,19 @@
+{
+  "name": "2-express-tutorials",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "express": "^4.18.1"
+  }
+}
