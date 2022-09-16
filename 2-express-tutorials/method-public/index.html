@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index.html</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar navbar-fixed-top navbar-expand-sm navbar-dark bg-primary">
+            <div class="container">
+                <div class="navbar-brand">Http Methods</div>
+                <div>
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link text-white">Regular</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript.html" class="nav-link text-white">Javascript</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav> 
+    </header>
+    <div class="container col-4 mt-5 border border-dark">
+        <div class="display-5 text-center">Traditional Form</div>
+        <form action="/api/login" method="POST" class="form-group">
+            <input type="text" name="name" id="name" class="form-control mt-3" placeholder="Enter your name">
+            <input type="submit" value="Submit" class="btn btn-primary my-3">
+        </form>
+    </div>
+    <script>
+
+    </script>
+</body>
+</html>
