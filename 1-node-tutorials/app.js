@@ -11,11 +11,4 @@
 //npm init - (step by step, press enter to skip)
 //npm init -y (everything default)
 
-const fs = require('fs');
-
-const stream = fs.createReadStream('./content/big.txt','utf-8');
-
-stream.on('data',(data)=>{
-    console.log(data);
-});
-
+console.log("NodeJS Tutorials")
